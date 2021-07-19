@@ -100,3 +100,5 @@ router.post('/register', checkPasswordLength, checkUsernameFree,  (req, res, nex
  
 // Don't forget to add the router to the `exports` object so it can be required in other modules
 module.exports = router
+
+//all done
